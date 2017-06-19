@@ -1,5 +1,6 @@
-.header {
+header {
   display: flex;
+  background-color: white;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
@@ -9,16 +10,83 @@
   height: 80px;
   align-items: center;
   z-index: 10;
-  }
-  .mytimes {
-    color: MediumAquamarine;
-  }
-  .links a {
-    color: black;
-    padding: 10px;
-    align-items: flex-end;
-}
-  .logo {
-    margin-right: 10px;
-    margin-left: 20px;
-  }
+  top: 0;
+ }
+.my.times {
+  color: MediumAquamarine;
+ }
+a {
+  color: black;
+  padding: 10px;
+ }
+nav span {
+   display: inline block;
+   justify-content: flex-end;
+ }
+.logo {
+  margin-right: 10px;
+  margin-left: 30px;
+ }
+ .main.container {
+   display: flex;
+   justify-content: center;
+   padding-top: 80px;
+   margin-bottom: 100px;
+
+ }
+ .column.large {
+   width: 630px;
+   border: 3px solid black;
+   display: flex;
+   flex-direction: column;
+   margin-top: 40px;
+   margin-left: 5px;
+   margin-right: 20px;
+ }
+ .column.medium {
+   width: 300px;
+   border: 3px solid black;
+   display: flex;
+   flex-direction: column;
+   margin-top: 40px;
+   margin-right: 20px;
+   margin-left: 15px;
+ }
+ .column.small {
+   width: 240px;
+   border: 3px solid black;
+   display: flex;
+   flex-direction: column;
+   margin-top: 40px;
+   margin-left: 15px;
+   margin-right: 40px;
+ }
+ .story {
+   font-family: Georgia;
+   font-size: 17px;
+   color: black;
+ }
+ .image.one {
+   font-family: Georgia;
+   font-weight: bold;
+   font-size: 40px;
+   color: black;
+ }
+ .image.two {
+   font-family: Georgia;
+   font-weight: bold;
+   font-size: 30px;
+   color: black;
+ }
+ .image.three {
+   font-family: Georgia;
+   font-weight: bold;
+   font-size: 30px;
+   color: black;
+ }
+ .image.four {
+   font-family: Georgia;
+   font-weight: bold;
+   font-size: 30px;
+   color: black;
+ }
