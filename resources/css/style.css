@@ -1,1 +1,24 @@
-style.css
+.header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  position: fixed;
+  border-bottom: 1px solid black;
+  width: 100%;
+  height: 80px;
+  align-items: center;
+  z-index: 10;
+  }
+  .mytimes {
+    color: MediumAquamarine;
+  }
+  .links a {
+    color: black;
+    padding: 10px;
+    align-items: flex-end;
+}
+  .logo {
+    margin-right: 10px;
+    margin-left: 20px;
+  }
