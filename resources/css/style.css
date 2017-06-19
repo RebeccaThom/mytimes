@@ -62,30 +62,35 @@ nav span {
    font-family: Georgia;
    font-size: 17px;
    color: black;
+   display: flex;
  }
  .first {
    font-family: Georgia;
    font-weight: bold;
    font-size: 40px;
    color: white;
+   display: flex;
  }
  .second {
    font-family: Georgia;
    font-weight: bold;
    font-size: 30px;
    color: white;
+   display: flex;
  }
  .third {
    font-family: Georgia;
    font-weight: bold;
    font-size: 30px;
    color: white;
+   display: flex;
  }
  .fourth {
    font-family: Georgia;
    font-weight: bold;
    font-size: 30px;
    color: white;
+   display: flex;
  }
  .image.one {
    background-image: url("../images/img-story-main.png");
@@ -110,4 +115,32 @@ nav span {
    display: flex;
    justify-content: center;
    height: 300px;
+ }
+ .news.bites {
+   font-size: 16px;
+   font-weight: bold;
+ }
+ .ideas {
+   background-color: WhiteSmoke;
+   font-family: Verdana;
+   font-size: 12px;
+   color: DimGray;
+   display: flex;
+   flex-direction: column;
+   border-bottom: 1px solid black;
+ }
+ .footer {
+   background-color: MediumAquamarine;
+   margin: auto;
+   font-family: Verdana;
+   font-size: 12px;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+ }
+ .times {
+   font-family: Georgia;
+   font-size: 16px;
+   font-weight: bold;
+   color: white;
  }
