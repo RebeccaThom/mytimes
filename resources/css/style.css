@@ -23,6 +23,7 @@ header {
  }
  .logo span {
   color: MediumAquamarine;
+  padding-left: 10px;
  }
 a {
   color: black;
